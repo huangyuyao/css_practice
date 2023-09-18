@@ -1,0 +1,99 @@
+/* Resetting with html5reset.css */
+@import url('html5reset.css');
+
+/* Body Styling */
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 20px 20px 0px 20px;
+}
+
+/* Headings and Paragraphs */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+
+/* Image Styling */
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 10px dashed white;
+}
+
+/* Div Styling */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+/* Introduction Class */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; /* Double spaced text */
+}
+
+/* Red Class */
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+}
+
+/* Blue Div */
+div.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+    color: #C4C4C4;
+}
+
+/* Yellow Div */
+div.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    color: #707070;
+}
+
+/* Green Div */
+div.green {
+    background-color: #00EB00; /* Change this to either #008500 or #00D800 based on preference */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000 100%);
+    border: 5px solid white;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
