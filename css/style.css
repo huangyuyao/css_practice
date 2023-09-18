@@ -29,8 +29,7 @@ p {
 /* Image Styling */
 img {
     width: 250px;
-    margin: auto;
-    text-align: center;
+    margin: 0 auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
